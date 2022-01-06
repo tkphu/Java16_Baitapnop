@@ -1,0 +1,118 @@
+.navbar{
+  font-size: 20px;
+}
+.nav-item{
+  margin: 0px 5px;
+}
+#carousel{
+  width: 450px;
+  margin: 10px 0px;
+  background-image:url(img-layout-2/slider_1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-clip: content-box;
+}
+.intro-text{
+  font-size: 20px;
+  color: grey;
+  font-weight: bold;
+  line-height: 30px;
+  letter-spacing: 2px;
+  text-indent: 40px;
+  text-align: justify;
+}
+.intro-product-left,.intro-product-right{
+  float: left;
+  width: 50%;
+}
+.intro-product-item{
+  float: left;
+  padding: 10px;
+}
+.intro-product-item-1{
+  width: 50%;
+}
+.intro-product-item-2{
+  width: 100%;
+}
+.intro-product-item img{
+  width: 100%;
+  display: block;
+}
+.clear{
+  clear: both;
+}
+#product > h1{
+  text-align: center;
+}
+.product-item{
+  width: 25%;
+  padding: 0 10px;
+  float: left;
+  box-sizing: border-box;
+}
+.item-img{
+  max-width: 100%;
+}
+.item-title{
+  font-weight: bold;
+  font-size: 25px;
+}
+.item-content{
+  font-size: 17px;
+  color: #000000;
+}
+#banner{
+  height: 400px;
+  background-image:url(img-layout-2/nature.jpg);
+  background-size: cover;
+  position: relative;
+}
+#banner .saleoff{
+  height: 300px;
+  width: 300px;
+  background-color: rgba(255, 0, 0, 0.3);
+  border-radius: 50%;
+  position: absolute;
+  top: 10%;
+  left: 15%;
+}
+#banner .saleoff p:nth-child(2){
+  font-size: 50px;
+  margin: 10px 0;
+}
+#banner .saleoff h3, #banner .saleoff p, #banner .saleoff h2{
+  color: white;
+  text-align: center;
+  margin-bottom: 0px;
+}
+#banner .saleoff h3{
+  margin-top: 50px;
+}
+#banner .saleoff h2{
+  font-size: 100px;
+}
+#service{
+  width: 100%;
+  margin: 20px 20px;
+}
+.service-item{
+  width: 30%;
+  float: left;
+  text-align: center;
+  margin: 10px 10px;
+}
+.service-item img{
+  width: 15%;
+  font-size: 40px;
+  color: black;
+}
+#footer{
+  height: auto;
+  background-color: black;
+  text-align: center;
+}
+#footer >h2, #footer >p{
+  color: white;
+}
